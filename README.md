@@ -1,16 +1,16 @@
-# ForecastR_Phase-3_Release3
+# ForecastR_Phase-3_Release4
 Forecasting tool for salmonid returns
 
-INSTRUCTIONS TO USE FORECASTR PHASE-3 RELEASE3
+INSTRUCTIONS TO USE FORECASTR PHASE-3 RELEASE4
 
-(1) ForecastR Phase-3 Release3 has been tested in the following systems:
+(1) ForecastR Phase-3 Release4 has been tested in the following systems:
 
   Windows 10; Office 10 
 	Windows  7; Office 10
 	Windows  7; Office 2007 
 	Windows  8; Office 2007  
 
-(2) ForecastR Phase-3 Release3 has been tested with R version 3.3.2.
+(2) ForecastR Phase-3 Release4 has been tested with R version 3.3.2.
     User should run the modules with this or more recent versions.
 
 (3) Users need to have a Java version 1.6.0 or greater.
@@ -21,7 +21,7 @@ INSTRUCTIONS TO USE FORECASTR PHASE-3 RELEASE3
  (4) Users need to install R-packages ReporterRs and ReporteRsjars. If necessary check this website: 
        http://davidgohel.github.io/ReporteRs/
 
-(5) Unzip the ForecastR_Phase-3_Release3 folder containing 4 folders and some additional scripts and temporary text files
+(5) Unzip the ForecastR_Phase-3_Release4 folder containing 4 folders and some additional scripts and temporary text files
 * Your data input files should be placed into the "Data" folder, which contains examples of acceptable input files.
  * In this version of ForecastR, abundance type entered under "Stock_Abundance" in the input file must match the corresponding abundance-type column  selected to entered abundance data.
 * ForecastR reports will be automatically saved into the "ForecastR Reports" folder. Examples of reports are included in this folder.
