@@ -11,7 +11,7 @@ INSTRUCTIONS TO USE FORECASTR PHASE-3 RELEASE4
 	Windows  7; Office 2007 
 	Windows  8; Office 2007  
 
-(2) ForecastR Phase-3 Release4 has been tested with R versions 3.3.2. and 3.3.3
+(2) ForecastR Phase-3 Release4 has been tested with R versions 3.3.2. and 3.3.3. There have been reported problems trying to run this version of ForecastR with R 3.4.3 and 3.5.0
     
 (3) Users need to have a Java version 1.6.0 or greater.
      Also Java and R architectures (32-bit vs. 64-bit) must be compatible.
