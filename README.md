@@ -54,8 +54,8 @@ The presence of  legitimate "zeros" in time series sometimes produces bizarre ou
 
 (9) Note about bootstrapping for Simple Sibling Regression:
     The bootstrapping for the simple sibling regression model can be done discarding negative point forecasts during the bootstrapping process. However, this ad-hoc process will not necessarily guarantee adequate coverage for the resulting forecasting intervals and may result in a skewed distribution of bootstrapped point forecasts.The version of bootstrapping used in the Simple Sibling Regression in this release is based on resampling residuals and keeping negative point forecasts. Future versions of this module will have the following options:
-
-       	a) resampling residuals and keeping negative point forecasts (should any be present);
+    
+	a) resampling residuals and keeping negative point forecasts (should any be present);
         b) resampling residuals but discarding negative point forecasts (should any be present);
         c) resampling cases and keeping negative point forecasts  (where a case represents a row of the data set used to fit the model);
         d) resampling cases  but discarding negative point forecasts.
