@@ -18,9 +18,20 @@ INSTRUCTIONS TO USE FORECASTR PHASE-3 RELEASE4
      If necessary, manually install Java from this website:
      https://java.com/en/download/help/windows_manual_download.xml
 
+	Typing in the R-console 
+	> system("java -version") 
+	should return java version ‘1.6.0’ or greater
+	
  (4) Users need to install R-packages ReporterRs and ReporteRsjars. If necessary check this website: 
        http://davidgohel.github.io/ReporteRs/
 
+	Or copy-paste in your R-console the following lines of code:
+
+	> install.packages("devtools") # Install the devtools package
+	> library(devtools) # Load the devtools package
+	> devtools::install_github('davidgohel/ReporteRsjars')
+	> devtools::install_github('davidgohel/ReporteRs') 
+	
 (5) Unzip the ForecastR_Phase-3_Release4 folder containing 4 folders and some additional scripts and temporary text files
 * Your data input files should be placed into the "Data" folder, which contains examples of acceptable input files.
  * In this version of ForecastR, abundance type entered under "Stock_Abundance" in the input file must match the corresponding abundance-type column  selected to entered abundance data.
